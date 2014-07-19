@@ -1,0 +1,5 @@
+name: BigBrother
+main: com.spinalcraft.bigbrother.BigBrother
+version: 1.0
+
+commands:
