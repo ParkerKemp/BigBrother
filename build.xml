@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project default="create" name="Create Runnable Jar for Project BigBrother">
     <target name="create">
-        <jar destfile="X:/Spinalcraft/SpinalpackDev/jars/BigBrother.jar" filesetmanifest="mergewithoutmain">
-            <fileset dir="X:/Java stuffs/workspace/BigBrother/bin"/>
-			<fileset file="X:/Java stuffs/workspace/BigBrother/plugin.yml"/>
-            <zipfileset excludes="META-INF/*.SF" src="X:/Java stuffs/workspace/BigBrother/lib/gson-2.3.1.jar"/>
+        <jar destfile="BigBrother.jar" filesetmanifest="mergewithoutmain">
+            <fileset dir="bin"/>
+			<fileset file="plugin.yml"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/gson-2.3.1.jar"/>
         </jar>
     </target>
 </project>
