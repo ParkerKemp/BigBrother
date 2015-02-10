@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project default="create_run_jar" name="Create Runnable Jar for Project BigBrother">
-    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
-    <!--ANT 1.7 is required                                        -->
-    <target name="create_run_jar">
+<project default="create" name="Create Runnable Jar for Project BigBrother">
+    <target name="create">
         <jar destfile="X:/Spinalcraft/SpinalpackDev/jars/BigBrother.jar" filesetmanifest="mergewithoutmain">
             <fileset dir="X:/Java stuffs/workspace/BigBrother/bin"/>
 			<fileset file="X:/Java stuffs/workspace/BigBrother/plugin.yml"/>
